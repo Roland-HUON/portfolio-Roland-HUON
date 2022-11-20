@@ -1,0 +1,72 @@
+body{
+    background-color: #317396; /*couleur arrière-plan bleu-vert */
+    color: aliceblue; /*couleur d'écriture*/
+}
+nav ul{
+    list-style-type: none;/*aucun type de style d'écriture particulier: points, chiffre (ici on enlève les points liés à la création des listes*/
+}
+
+nav ul li{
+    float: left;/*l'élément doit être placé du côté gauche*/
+    width: 20%;/*taille 20%*/
+    text-align: center;/*alignement du texte au centre*/
+    position: relative;/*type de position relative*/
+}
+
+nav ul::after{/*ajout d'un contenu pour le visuel*/
+    display: table; /*élément qui s'affiche l'un à côté de l'autre mais quipeuvent se dimensionner*/ 
+    clear: both; /*permet de mettre un élément au même niveau qu'un élément de type float*/
+}
+
+nav a{
+    display: block;
+    text-decoration: none; /*pas de soulignement*/
+    color: black;
+    border-bottom: 2px solid transparent; /*crée une bordure mais juste une ligne en bas du conteneur d'épaisseur 2px, forme solide, et de couleur transparent*/
+    padding: 10px 0px;
+}
+
+nav a:hover{ /*lorsqu'on passe la souris sur le conteneur*/
+    color: gold;/*couleur du texte en or*/
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;/*pas visible par les utilisateurs*/
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;/*précise le niveau d'empilement des boîtes, qui est devant qui est derrière*/
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;/*second conteneur le plus petit*/
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.MenuDeroulant > a::after{
+    content:"▼";
+    font-size: 22px;
+}
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+.page{
+    color: aliceblue;
+    font-size: xx-large;
+}
+.SousPage{
+    color:#317396;
+}

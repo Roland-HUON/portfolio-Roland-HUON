@@ -1,0 +1,34 @@
+@import url('componant/titre.css');
+@import url('componant/menu.css');/*importer un fichier css pour les éléments du menu, les différentes rubriques(animations...)*/
+@import url('componant/accueil/main_image.css');
+@import url('componant/accueil/main_texte_anime.css');
+@import url('componant/accueil/main_texte.css');
+@import url('componant/accueil/main_conteneur.css');
+@import url('componant/accueil/lien.css');
+footer{
+    margin-top: 4%;/*descendre la partie footer de 4%*/
+    margin-left: 4%;/*décaler la partie footer de 4% vers la droite*/
+}
+@media screen and (min-width :1024px){
+    .paragraphe{
+        position:relative;
+        top: 20%; /*remonter de 20% vers le haut*/
+        border: 5px solid rgb(0, 255, 17); /* bordure d'épaisseur 5 px, forme d'un solide et couleur vert*/
+        border-radius: 10px; /*courber les bords de la bordure de 10px*/
+        animation: slideLeft 30s infinite; /*faire l'animation nommé slideLeft répéter indéfiniment*/
+    }
+    @keyframes slideLeft{
+        from{ /*début de l'animation*/
+            transform: translate(-275%);/*position de départ à -275% par rapport à celle mise dans le fchier html*/
+        }
+        50%{  /*à 50% du temps de l'animation*/
+            transform: translate(-10%);/*position de départ à -10% par rapport à celle mise dans le fchier html*/
+        }
+        75%{  /*à 75% du temps de l'animation*/
+            transform: translate(2%);/*position de départ à 2% par rapport à celle mise dans le fchier html*/
+        }
+        to{ /*fin de l'animation*/
+            transform: translate(-275%);/*revenir à la position du début*/
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.title{
+    text-align: center; /*texte au centre*/
+    font-size: xx-large; /*taille du texte très très large*/
+}
+.text1{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10%; /*descendre le texte*/
+}
+.text2{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+}
+.text3{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+}
+.text4{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 21%;
+}
+.text5{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 14%;
+}

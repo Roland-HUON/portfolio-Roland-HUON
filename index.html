@@ -1,0 +1,114 @@
+<!DOCTYPE html><!--annoncer au robot qui exécute les instructions à la suite, ligne par ligne, il comprend que c’est en html-->
+<html lang="fr"><!--Recherche en fonction du pays-->
+    <head><!--partie non visible par l'utilisateur-->
+        <meta charset="UTF-8"><!--manière d’écrire, récupérer les caractères spéciaux, balise auto-fermant-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--affichage-->
+        <meta name="description" content="Portfolio de Roland HUON, Digital, jeux vidéo, création3D, création&design, marketing, coding, venez découvrir qui je suis"><!--petit résumer/description qui s'affichera sur google dans la recherche, il s'agit aussi de mot-lien-->
+        <title>Portfolio de Roland HUON</title><!--ce qui va s'afficher au niveau de l'onglet--> 
+        <link rel="shortcut icon" href="portfolio_img/logo.jpg" type="image/x-icon"><!--image de l'icône qui apparaîtra au niveau de l'onglet-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"><!--lien css bootstrap-->
+        <link rel="stylesheet" href="css/style.css"><!--lien css-->
+    </head>
+    <body><!--partie visible par l'utilisateur-->
+        <header><!--haut de page-->
+            <div class="HeaderPremierConteneur"><!--création d'un conteneur avec comme classe HeaderPremierConteneur (peut avoir plusieurs élément ayant la même classe)-->
+                <div class="HeaderPremierSousConteneur">
+                    <img src="portfolio_img/logo.jpg" alt="logo" id="banniere"><!--image-->
+                    <h1><strong>Portfolio de Roland HUON</strong></h1><!--titre de la page-->
+                </div>
+                <div class="HeaderDeuxiemeSousConteneur">
+                    <div class="HeaderFlex">
+                        <nav>
+                            <ul><!--création d'une liste non ordonné ( qui va être ici notre menu)-->
+                                <li><a href="index.html" class="page">Accueil</a></li><!--lien vers une autre page lorsqu'on clique dessus et liste -->
+                                <li class="MenuDeroulant"><a href="#" class="page">Portfolio</a><!--liste et sous-liste-->
+                                    <ul class="sous">
+                                        <li><a href="portfolio_cd.html" class="SousPage">Création & design</a></li>
+                                        <li><a href="portfolio_animation.html" class="SousPage">Animation 3D</a></li>
+                                        <li><a href="portfolio_jv.html" class="SousPage">Jeux Vidéo</a></li>
+                                        <li><a href="portfolio_cdeb.html" class="SousPage">Communication Digital & E-Business</a></li>
+                                        <li><a href="portfolio_cdi.html" class="SousPage">Coding & Digital Innovation</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="competences.html" class="page">Compétences</a></li>
+                                <li><a href="moi.html" class="page">Qui je suis?</a></li>
+                                <li><a href="contact.html" class="page">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div><!--fin du conteneur HeaderPremierConteneur-->
+        </header>
+        <main><!--corps de page-->
+            <section class="MainHautConteneur">
+                <div class="MainSousHautConteneur">
+                    <div class="BlocParagraphe">
+                        <div>
+                            <div class="Intro">
+                                <div class="row justify-content-end"><!--conteneur row=> en ligne et mise en forme du contenu à la fin de la ligne-->
+                                    <div class="col-md-3 bordure"><!--création d'une colonne de largeur md-3 avec bordure-->
+                                        <div class="paragraphe">Bienvenue sur le portfolio de Roland HUON! Ici, 
+                                            vous allez découvrir qui je suis et l’ensemble des projets que j’ai accomplis durant mes études et ma vie professionnelle.
+                                            Pour commencer, je vous conseille de vous rendre dans la rubrique "Qui je suis?" pour en apprendre plus sur moi.
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="portfolio_img/img_principal.jpg" alt="img_jeux" id="AnotherEden">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Portfolio</h2><!--deuxième titre-->
+                <div>
+                    <p class="title">Création & design</p>
+                    <div class="CreaDesign">
+                        <img src="portfolio_img/creation_design/HUON_Roland_GR5_face_recto1.jpg" alt="album_recti" class="img">
+                        <img src="portfolio_img/creation_design/HUON_Roland_GR5_face_verso1.jpeg" alt="album_verso" class="img">
+                        <img src="portfolio_img/creation_design/HUON_Roland_GR5_MokeUP1.jpeg" alt="moke_up" id="img">
+                        <p class="text1">Pour voir plus<br><a href="portfolio_cd.html" class="lien">Cliquez-ici</a></p><!--lien vers une autre page via un clique sur un groupe de mot-->
+                    </div>
+                </div>
+                <div>
+                    <p class="title">Animation 3D</p>
+                    <div class="Animation">
+                        <img src="portfolio_img/animation/HUON_Roland_GR5_IMAGE_LUMIERE_0001.png" alt="lumiere" class="img">
+                        <img src="portfolio_img/animation/HUON_Roland_GR5_IMAGE_HEROIC_SCENE_0001.png0001.png" alt="scene_heroic" class="img">
+                        <img src="portfolio_img/animation/HUON_Roland_GR5_ARCHI_IMAGE_0001.png" alt="scene_archi" class="img">
+                            <p class="text2">Pour voir plus<br><a href="portfolio_creatroisd.html" class="lien">Cliquez-ici</a></p>
+                    </div>
+                </div>
+                <div>
+                    <p class="title">Jeu Vidéo</p>
+                    <div class="JV">
+                        <img src="portfolio_img/jv/another_eden.png" alt="another_eden" class="img">
+                        <img src="portfolio_img/jv/evertale.png" alt="evertale" class="img">
+                        <img src="portfolio_img/jv/clash_of_clans.png" alt="clash_of_clans" class="img">
+                        <p class="text3">Pour voir plus<br><a href="portfolio_jv.html" class="lien">Cliquez-ici</a></p>
+                    </div>
+                </div>
+                <div>
+                    <p class="title">Communication Digital & E-Business</p>
+                    <div class="CDEB">
+                        <img src="portfolio_img/cdeb/cdeb.png" alt="img_marketing" id="ImgMarketing">
+                        <p class="text4">Pour voir plus<br><a href="portfolio_cdeb.html" class="lien">Cliquez-ici</a></p>
+                    </div>
+                </div>
+                <div>
+                    <p class="title">Coding & Digital Innovation</p>
+                    <div class="CDI">
+                        <a href="https://roland-huon.github.io/landing-page/" class="Premiersite"><img src="portfolio_img/cdi/premier_site.png" alt="photo_site" id="site"></a>
+                        <p class="text5">Pour voir plus<br><a href="portfolio_cdi.html" class="lien">Cliquez-ici</a></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer><!--bas de page-->
+            <p><strong>Pour me contacter:</strong></p>
+            <p>Par téléphone : <a href="tel:0779479151" class="contact"> <span>+33 7 79 47 91 51</span></a></p><!--permet de téléphoner-->
+            <p>Par mail : <a href="mailto:huonroland91@gmail.com" class="contact"><span>huonroland91@gmail.com</span></a></p><!--permet d'envoyer un mail--> 
+            <p>Mes réseaux sociaux :</p>
+            <a href="https://www.linkedin.com/in/roland-huon/" class="linkedin"><img src="portfolio_img/linkedin.png" alt="linkedin" id="linkedin"></a><!-- lien vers un compte linkedin-->
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script><!--lien javascript bootstrap-->
+    </body><!--fin de la partie visible par l'uilisateur-->
+</html>

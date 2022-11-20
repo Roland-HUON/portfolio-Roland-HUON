@@ -1,0 +1,25 @@
+.CreaDesign{
+    display: flex; /*utilisation de la flexbox et aligner(sur une ligne au mieux)les éléments que contient cette flexbox*/
+    justify-content: space-evenly; /*mettre un écart entre chaque élément de la flexbox et les répartir sur toute la ligne avec le même écart*/
+}
+.Animation{
+    display: flex;
+    justify-content: space-evenly;
+}
+.JV{
+    display: flex;
+    justify-content: space-evenly;
+}
+.CDEB{
+    display: flex;
+    justify-content: space-evenly;
+}
+.CDI{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Premiersite{
+    display: flex;
+    justify-content: center; /*mettre les éléments de la flexbox au centre tout en restant en ligne*/
+}
+

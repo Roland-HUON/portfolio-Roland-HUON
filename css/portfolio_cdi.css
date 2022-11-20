@@ -1,0 +1,3 @@
+@import url('componant/titre.css');
+@import url('componant/menu.css');/*importer un fichier css pour les éléments du menu, les différentes rubriques(animations...)*/
+@import url('componant/cdi/main.css');

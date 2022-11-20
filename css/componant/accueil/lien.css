@@ -1,0 +1,11 @@
+.lien{
+    text-decoration: none;/*pas de soulignement*/
+    color: gold;/*couleur de la police "or"*/
+}
+.contact{
+    text-decoration: none;
+    color: gold;
+}
+#linkedin{
+    width: 3%; /*taille de l'image 3%*/
+}

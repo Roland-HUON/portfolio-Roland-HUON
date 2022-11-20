@@ -1,0 +1,19 @@
+#banniere{
+    width: 10%;
+}
+.HeaderPremierSousConteneur{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 250%;
+    line-height: 400%;
+}
+.HeaderDeuxiemeSousConteneur{
+    display: list-item;
+}
+h2{
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 5%;
+}

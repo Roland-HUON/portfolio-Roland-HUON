@@ -1,0 +1,51 @@
+.ImageSeul{
+    display: flex;
+    justify-content: center;
+}
+#top{
+    margin-top: 5%;
+}
+#wireframe_cdi{
+    margin-left: 38%;
+}
+#text_wireframe_cdi{
+    margin-top: 8%;
+    margin-right: 13%;
+}
+.DuoImageTournante{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ImageTournante{
+    transition: all 1s ease-out 1s; /*éxécuter rapidement puis lentement*/
+    animation: rotate 30s infinite;/*éxécuter l'animation du nom de "rotate" de manière infini*/
+}
+@keyframes rotate{
+    from{/*début*/
+        transform: rotate(0deg) ; /*fais tourner à partir de 0 degrée*/
+    }
+    to{/*fin*/
+        transform: rotate(360deg) ;/*fais tourner vers 360 degrée (1 tour)*/
+    }
+}
+#PremiereImageTournante{
+    width: 20%;
+    margin-right: 19%;
+}
+#DeuxièmeImageTournante3{
+    margin-left: auto;
+    margin-right: 8%;
+}
+p{
+    font-size: larger;
+}
+.wireframe_accueil{
+    margin-top: 15%;
+    margin-left: 7%;
+}
+#wireframe_animation{
+    margin-left: 19%;
+}
+#text_wireframe_animation{
+    margin-top: 19%;
+}

@@ -1,0 +1,19 @@
+#img_principal{
+    width: 10%;
+}
+#AnotherEden{
+    width:110%;
+}
+.img{
+    width: 25%;
+}
+#img{
+    width: 28%;
+}
+#ImgMarketing{
+    width: 82%;
+    margin-left: 3%; /*déplacer l'image à droite de 3%*/
+}
+#site{
+    width: 90%;
+}

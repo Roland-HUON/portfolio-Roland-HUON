@@ -1,0 +1,27 @@
+.paragraphe{
+    position:relative;
+    bottom: 50%;
+    top: 40%;
+    border: 2px solid gold;
+    border-radius: 7px;
+    height: auto;
+    width: auto;
+    color: aliceblue;
+    background-color: #317396;
+    font-size: larger;
+    animation:slideRight 30s;
+}
+@keyframes slideRight{
+    from{
+        transform: translate(-25%);
+    }
+    50%{
+        transform: translate(-10%);
+    }
+    75%{
+        transform: translate(2%);
+    }
+    to{
+        transform: translate(-10%)
+    }
+}
